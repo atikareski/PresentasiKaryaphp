@@ -8,7 +8,7 @@ body{
 
 .container{
     position: relative;
-    background-image: url(img/hero.jpeg);
+    background-image: url(../img/hero.jpeg);
     background-size: cover;
     background-position: center;
 }
