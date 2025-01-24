@@ -10,8 +10,8 @@
     <nav>
         <h1 class="judul">JUCKER</h1>
         <ul>
-            <li><a href="indexuser.php">Home</a></li>
-            <li><a href="indexuser.html#menu">Menu</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="index.html#menu">Menu</a></li>
             <li><a href="daftar.php">Daftar Pesanan</a></li>
             <li><a href="login.php">Log out</a></li>
         </ul>
