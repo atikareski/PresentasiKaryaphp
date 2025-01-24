@@ -75,6 +75,5 @@
             <h6 class="contact">IG: @jucker_catering   I   FB: @jucker_catering   I   Youtube: jucker channel</h6>
             <h6>@Copyright 2025 by Jucker Catering</h6>
         </section>
-    <
 </body>
 </html>
