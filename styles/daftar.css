@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+
+nav{
+    top: 0px;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;   
+    background-color: #EE693F;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 999;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+.judul{
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.container{
+    position: relative;
+}
+
+#pengguna{
+    margin: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    margin: 40px;
+    font-size: 25px;
+}
+
+.pesanan{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 40px 0px 40px;
+    background-color:#FFCD44;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.kalender{
+    box-sizing: border-box;
+    padding: 40px;
+}
+
+.kalender ul{
+    list-style-type: none;
+}
+
+.month {
+    padding: 70px 25px;
+    background: #94cc50;
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+}
+  
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+  
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size:18px;
+}
+  
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+  
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+  
+.weekdays {
+    margin: 0px 40px 0px 40px;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+  
+.weekdays li {
+    display: inline-block;
+    width: 12.6%;
+    color: #666;
+    text-align: center;
+}
+  
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0px 40px 0px 40px;
+}
+  
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 12.6%;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size:12px;
+    color: #777;
+}
+  
+.days li .active {
+    padding: 5px;
+    background: #94cc50;
+    color: white !important
+}
+
+.data{
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 40px;
+    margin-top: 0px;
+    align-items: center;
+    background-color: #F69454;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.status{
+    margin: 40px 40px 40px 0px;
+}
+
+.judulstatus{
+    margin-bottom: 20px ;
+}
+
+.status p{
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.pembayaran{
+    text-align: center;
+    margin: 30px;
+    color: red;
+}
+
+.tambah{
+    text-align: center;
+    margin: 50px;
+}
+
+.tombol{
+    text-decoration: none;
+    color: black;
+    background-color: #FFCD44;
+    border-radius: 20px;
+    padding: 15px 30px 15px 30px;
+    font-weight: bold;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: #EE693F;
+    border-radius: 0px 0px 0px 0px;
+    padding: 20px;
+    justify-items: center;
+    font-size: 20px;
+} 
+
+.edit{
+    text-align: center;
+    margin: 50px 80px 15px 80px;
+}
+
+.edit h4{
+    background-color: #FFCD44;
+    padding: 10px 3px 10px 3px;
+    border-radius: 20px;
+    color: black;
+}
+
+.edit a{
+    text-decoration: none;
+}
+
+.edit p{
+    padding: 0px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.contact{
+    color: white;
+    margin-bottom: 10px;
+}
