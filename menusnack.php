@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/menusnack.css">
+    <link rel="stylesheet" href="styles/menusnack.css?v=<?php echo time(); ?>">
     <title>Menu Snack dan Kue Tradisional</title>
 </head>
 <body>

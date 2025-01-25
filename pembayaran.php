@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pembayaran</title>
-    <link rel="stylesheet" href="styles/pembayaran.css">
+    <link rel="stylesheet" href="styles/pembayaran.css?v=<?php echo time(); ?>">
 </head>
 <body>
     <div class="container">
@@ -50,6 +50,9 @@
         </section>
         <div class="submit">
             <a href="daftar.php" onclick="alert('Silahkan menunggu konfirmasi dari admin')">Selesai</a>
+        </div>
+        <div class="kembali">
+            <a href="input.php"><h3> <- Kembali </h3></a>
         </div>
     </div>
     <section class="footer">
