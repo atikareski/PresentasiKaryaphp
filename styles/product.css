@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.container{
+    margin-left: 270px;
+    padding-left: 20px;
+}
+
+.sidebar{
+    padding: 30px;
+    position: fixed;
+    left: 0;
+    width: 210px;
+    height: 100%;
+}
+
+aside{
+    left: 0px;
+    position: sticky;
+    background-color: #EE693F;
+}
+
+.sidebar header{
+    padding: 0px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    color: white;
+}
+
+.sidebar ul li i{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.sidebar ul li{
+    list-style: none;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.sidebar ul{
+    padding: 10px;
+}
+
+.products{
+    background-color: #FFCD44;
+    text-align: left;
+    justify-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+.orders{
+    text-align: left;
+    justify-items: center;
+    padding: 10px;
+}
+
+.dashboard{
+    text-align: left;
+    justify-items: center;
+    padding: 10px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+input[type=text]{
+    padding: 10px 50px 10px 20px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.329);
+}
+
+button[type=submit]{
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.329);
+}
+
+.akun{
+    padding: 10px;
+}
+
+.container h1{
+    margin-left: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+
+

@@ -78,6 +78,14 @@ nav ul li{
     line-height: 1.5;
 }
 
+#menu{
+    position: relative;
+}
+
+#about{
+    position: relative;
+}
+
 .menuoption{
     position: relative;
     background-color: #F69454;

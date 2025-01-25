@@ -21,7 +21,6 @@
                 <h1>Selamat Datang di Jucker Catering</h1>
                 <p>Hidangan lezat, sehat, dan penuh cinta untuk setiap momen Anda. Pesan sekarang dan nikmati kualitas terbaik!</p>
         </section>
-    </div>
         <section id="menu">
             <h1 class="menutext">Menu</h1>
             <div class="menuoption">
@@ -71,9 +70,10 @@
                 </div>
             </div>
         </section>
-        <section class="footer">
-            <h6 class="contact">IG: @jucker_catering   I   FB: @jucker_catering   I   Youtube: jucker channel</h6>
-            <h6>@Copyright 2025 by Jucker Catering</h6>
-        </section>
+    </div>
+    <section class="footer">
+        <h6 class="contact">IG: @jucker_catering   I   FB: @jucker_catering   I   Youtube: jucker channel</h6>
+        <h6>@Copyright 2025 by Jucker Catering</h6>
+    </section>
 </body>
 </html>

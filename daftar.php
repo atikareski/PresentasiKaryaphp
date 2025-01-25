@@ -91,7 +91,8 @@
                     <h2 class="judulstatus">Status Pembayaran</h2>
                     <p>Tanggal Pembayaran: 10 Januari 2025
                         <br>Total: Rp.140.000
-                        <br>Sisa: -</p>
+                        <br>Sisa: -
+                        <br>Status: Belum Diproses</p>
                     <h2 class="pembayaran">Lunas</h2>
                     <div class="edit">
                         <a href="input.php"><h4>Edit Pesanan</h4></a>
