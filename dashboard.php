@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/dashboard.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="../assets/inr.ico" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Jucker Admin</title>
 </head>
 <body>
@@ -47,10 +53,12 @@
                 <i class="fas fa-chart-line">   Rp.700.000</i>
             </div>
         </div>
-        <div class="w-full h-96 bg-white px-8 py-9 rounded-xl">
-            <p class="text-xl font-bold">Sales Details</p>
-            <canvas id="myChart" class="w-full" width="1079" height="234" style="display: block; box-sizing: border-box; height: 312px; width: 1438px;"></canvas>
-		</div>
+        <div class="graph">
+            <div class="w-full h-96 bg-white px-8 py-9 rounded-xl">
+                <p class="text-xl font-bold">Sales Details</p>
+                <canvas id="myChart" class="w-full" width="1079" height="234" style="display: block; box-sizing: border-box; height: 312px; width: 1438px;"></canvas>
+            </div>
+        </div>
     </div>
 <script>
     const ctx = document.getElementById("myChart").getContext("2d");
