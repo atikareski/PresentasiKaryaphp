@@ -9,6 +9,8 @@ body{
 .container{
     margin-left: 270px;
     padding-left: 20px;
+    padding-bottom: 30px;
+    background-color: rgba(128, 128, 128, 0.151);
 }
 
 .sidebar{
@@ -17,6 +19,7 @@ body{
     left: 0;
     width: 210px;
     height: 100%;
+    z-index: 999;
 }
 
 aside{
@@ -69,9 +72,14 @@ aside{
 }
 
 .top{
+    top: 0px;
+    background-color: #EE693F;
+    position: sticky;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
+    margin-left: -20px;
+    margin-bottom: 25px;
 }
 
 input[type=text]{
@@ -96,14 +104,31 @@ button[type=submit]{
 
 table {
     border-collapse: collapse;
-    width: 100%;
-  }
+    margin: 30px;
+    background-color: white;
+    font-size: 12px;
+}
   
-  td, th {
-    border: 1px solid #dddddd;
+td, th {
     text-align: left;
-    padding: 8px;
-  }
+    padding:20px;
+    align-items: center;
+    justify-content: center;
+}
 
+tr{
+    border: 1px solid rgba(0, 0, 0, 0.329);
+}
 
+button{
+    margin-bottom: 10px;
+    background-color: #FFCD44;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
 
+button:hover{
+    background-color: #cea433;
+    cursor:pointer;
+}

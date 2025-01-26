@@ -9,7 +9,7 @@ body{
 .container{
     margin-left: 270px;
     padding-left: 20px;
-    height: 100%;
+    padding-bottom: 30px;
     background-color: rgba(128, 128, 128, 0.151);
 }
 
@@ -19,6 +19,7 @@ body{
     left: 0;
     width: 210px;
     height: 100%;
+    z-index: 999;
 }
 
 aside{
@@ -71,9 +72,14 @@ aside{
 }
 
 .top{
+    top: 0px;
+    background-color: #EE693F;
+    position: sticky;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
+    margin-left: -20px;
+    margin-bottom: 25px;
 }
 
 input[type=text]{
@@ -114,6 +120,82 @@ button[type=submit]{
 
 .analytics i{
     align-items: center;
+}
+
+.w-full h-96 bg-white px-8 py-9 rounded-xl{
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: normal;
+    font-variation-settings: normal;
+    -webkit-tap-highlight-color: transparent;
+    --rem: 16;
+    line-height: inherit;
+    --tw-border-spacing-x: 0;
+    --tw-border-spacing-y: 0;
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-gradient-from-position: ;
+    --tw-gradient-via-position: ;
+    --tw-gradient-to-position: ;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgb(59 130 246 / 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+    --tw-contain-size: ;
+    --tw-contain-layout: ;
+    --tw-contain-paint: ;
+    --tw-contain-style: ;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    height: 24rem;
+    width: 100%;
+    border-radius: 0.75rem;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    z-index: 999;
 }
 
 

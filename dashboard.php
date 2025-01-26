@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/dashboard.css?v=<?php echo time(); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-    <title>Dashboard Jucker</title>
+    <title>Jucker Admin</title>
 </head>
 <body>
     <aside class="sidebar">
@@ -47,8 +47,85 @@
                 <i class="fas fa-chart-line">   Rp.700.000</i>
             </div>
         </div>
-       
+        <div class="w-full h-96 bg-white px-8 py-9 rounded-xl">
+            <p class="text-xl font-bold">Sales Details</p>
+            <canvas id="myChart" class="w-full" width="1079" height="234" style="display: block; box-sizing: border-box; height: 312px; width: 1438px;"></canvas>
+		</div>
     </div>
+<script>
+    const ctx = document.getElementById("myChart").getContext("2d");
+    const gradient = ctx.createLinearGradient(0, 0, 0, 400);
+    gradient.addColorStop(0, "rgba(54, 162, 235, 0.5)");
+    gradient.addColorStop(0.8, "rgba(54, 162, 235, 0)");
+    const myChart = new Chart(ctx, {
+        type: "line",
+        data: {
+            labels: [
+                "5k",
+                "10k",
+                "15k",
+                "20k",
+                "25k",
+                "30k",
+                "35k",
+                "40k",
+                "45k",
+                "50k",
+                "55k",
+                "60k",
+            ],
+            datasets: [
+                {
+                    label: "Data",
+                    data: [
+                        20, 35, 25, 64.37, 42, 47, 50, 30, 60, 40, 45, 10, 12312, 234,
+                    ],
+                    backgroundColor: gradient,
+                    borderColor: "rgba(54, 162, 235, 1)",
+                    borderWidth: 1,
+                    fill: true,
+                    pointBackgroundColor: "rgba(54, 162, 235, 1)",
+                    pointBorderColor: "#fff",
+                    pointHoverBackgroundColor: "#fff",
+                    pointHoverBorderColor: "rgba(54, 162, 235, 1)",
+                },
+            ],
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: false,
+                    max: 100,
+                    ticks: {
+                        stepSize: 20,
+                        callback: function (value) {
+                            return value + "%";
+                        },
+                    },
+                    grid: {
+                        drawBorder: false,
+                    },
+                },
+            },
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            let label = context.dataset.label || "";
+                            if (label) {
+                                label += ": ";
+                            }
+                            label += parseFloat(context.raw).toFixed(2);
+                            return label;
+                        },
+                    },
+                },
+            },
+            responsive: true,
+            maintainAspectRatio: false,
+        },
+    });
+</script>
 </body>
 </html>
 

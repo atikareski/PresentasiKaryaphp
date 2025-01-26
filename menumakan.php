@@ -35,7 +35,7 @@
                     </div>
                     <div class="deskripsi">
                         <h1>Menu Makanan Luar Negeri</h1>
-                            <p>Makanan Khas Jepang <br>Makanan Khas Thailand <br>Makanan Khas Arab <br><br>*harga bisa berbeda tergantung menu yang dipilih</p>
+                            <p>Makanan Khas Jepang (Rp. 30.000/d) <br>Makanan Khas Thailand (Rp. 30.000/d) <br>Makanan Khas Arab (Rp. 30.000/d)<br><br>*harga bisa berbeda jika terdapat request diluar menu</p>
                     </div>
                 </div>
                 <div class="biasa">
