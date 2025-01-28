@@ -42,6 +42,7 @@
                     <th>Alamat</th>
                     <th>No.HP</th>
                     <th>Action</th>
+                    <th>Status Pembayaran</th>
                 </tr>
                 <tr>
                     <td>5001</td>
@@ -58,6 +59,10 @@
                     <button>Sedang Diproses</button>
                     <button>Proses Pengantaran</button>
                     <button>Selesai</button></td>
+                    <td>
+                    <button>Belum Diterima</button>
+                    <button>Lunas</button>
+                    <button>Telah membayar DP</button></td>
                 </tr>
                 <tr>
                     <td>6001</td>
@@ -74,6 +79,10 @@
                     <button>Sedang Diproses</button>
                     <button>Proses Pengantaran</button>
                     <button>Selesai</button></td>
+                    <td>
+                    <button>Belum Diterima</button>
+                    <button>Lunas</button>
+                    <button>Telah membayar DP</button></td>
                 </tr>
                 <tr>
                     <td>6002</td>
@@ -90,6 +99,10 @@
                     <button>Sedang Diproses</button>
                     <button>Proses Pengantaran</button>
                     <button>Selesai</button></td>
+                    <td>
+                    <button>Belum Diterima</button>
+                    <button>Lunas</button>
+                    <button>Telah membayar DP</button></td>
                 </tr>
                 <tr>
                     <td>6003</td>
@@ -106,6 +119,10 @@
                     <button>Sedang Diproses</button>
                     <button>Proses Pengantaran</button>
                     <button>Selesai</button></td>
+                    <td>
+                    <button>Belum Diterima</button>
+                    <button>Lunas</button>
+                    <button>Telah membayar DP</button></td>
                 </tr>
                 <tr>
                     <td>6004</td>
@@ -122,6 +139,10 @@
                     <button>Sedang Diproses</button>
                     <button>Proses Pengantaran</button>
                     <button>Selesai</button></td>
+                    <td>
+                    <button>Belum Diterima</button>
+                    <button>Lunas</button>
+                    <button>Telah membayar DP</button></td>
                 </tr>
                 <tr>
                     <td>6005</td>
@@ -138,6 +159,10 @@
                     <button>Sedang Diproses</button>
                     <button>Proses Pengantaran</button>
                     <button>Selesai</button></td>
+                    <td>
+                    <button>Belum Diterima</button>
+                    <button>Lunas</button>
+                    <button>Telah membayar DP</button></td>
                 </tr>
             </table>
         </div>

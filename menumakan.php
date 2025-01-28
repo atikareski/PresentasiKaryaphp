@@ -57,7 +57,7 @@
                     </div>
                     <div class="deskripsi">
                         <h1>Paket Catering</h1>
-                        <p>Paket Ekonomis (Rp. 35.000/porsi) <br>Standar (Rp.50.000/porsi) <br>Paket Premium (Rp. 75.000-Rp.100.000/porsi) <br>Paket Spesial (Rp.120.000-Rp. 150.000/porsi) <br><br>*minimal pemesanan 20 porsi</p>
+                        <p>Paket Ekonomis (Rp. 35.000/porsi) <br>Standar (Rp.50.000/porsi) <br>Paket Premium (Rp. 75.000-Rp.100.000/porsi) <br>Paket Spesial (Rp.120.000-Rp. 150.000/porsi) <br><br>*minimal pemesanan 20 porsi<br>*wajib membayar DP 50% dari total harga</p>
                         <div class="ekonomis">
                             <h3>Paket Ekonomis</h3>
                             <p>Nasi putih<br>Ayam goreng/bakar<br>Sayur capcay/sop<br>Tahu/tempe goreng<br>Sambal dan kerupuk<br>Air mineral</p>

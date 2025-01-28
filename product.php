@@ -100,6 +100,9 @@
                 </tr>
             </table>
         </div>
+        <div class="tambah">
+            <button>Tambah Produk</button>
+        </div>
     </div>
 </body>
 </html>

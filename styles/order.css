@@ -129,6 +129,7 @@ button{
     border: 1px solid;
     border-radius: 5px;
     padding: 5px;
+    text-align: left;
 }
 
 button:hover{
